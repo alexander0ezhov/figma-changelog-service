@@ -1,0 +1,22 @@
+{
+  "personalAccessToken": "",
+  "files": {
+    "payments":""
+  },
+  "telegram": {
+    "api": "https://api.telegram.org",
+    "token": "",
+    "updates": "",
+    "chatId": ""
+  },
+  "dbConfig":{
+    "type": "postgres",
+    "database": "services",
+    "host": "localhost",
+    "port": 5432,
+    "user": "service",
+    "password": "",
+    "schema": "figma"
+  },
+  "repeatTime": 3600000
+}
