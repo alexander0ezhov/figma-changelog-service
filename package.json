@@ -1,0 +1,25 @@
+{
+  "name": "figma-changelog-service",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node .",
+    "start-prod": "MODE=production node ."
+  },
+  "keywords": [
+    "figma"
+  ],
+  "author": "alexander0ezhov",
+  "license": "MIT",
+  "dependencies": {
+    "axios": "^0.21.1",
+    "chalk": "^4.1.1",
+    "figma-api": "^1.6.1",
+    "pg": "^8.7.0",
+    "sequelize": "^6.6.5"
+  },
+  "devDependencies": {
+    "prettier": "^2.3.2"
+  }
+}
